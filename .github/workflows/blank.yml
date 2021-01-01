@@ -5,13 +5,13 @@
   uses: sarisia/actions-readme-feed@v1.3.0
   with:
     # RSS Feed URL
-    url: #http://feeds.feedburner.com/whiskinwellness
+    url: #http://feeds.feedburner.com/whiskinwellness/rss2
     # Path to Markdown file to update
     file: 
     # Sort feed entries by date in decending order
     sort: #true
     # Number of entries to show
-    max_entry: 5
+    max_entry: 6
     # Feed format string
     format: # optional, default is - ${monthshort} ${02day} - [${title}](${url})
     # Start of feed block in Markdown
